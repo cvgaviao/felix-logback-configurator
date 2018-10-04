@@ -1,0 +1,15 @@
+{
+    // Resource Format Version
+    ":configurator:resource-version" : 1,
+    ":configurator:version":"0.0.1",
+    ":configurator:symbolic-name":"MyInitialConfig2",
+    
+    "org.osgi.service.log.admin|org.apache.felix.scr": {
+        "ROOT": "INFO"
+    },
+
+    "org.osgi.service.log.admin|org.apache.aries.subsystem.core": {
+        "ROOT": "ERROR"
+    }
+
+}
